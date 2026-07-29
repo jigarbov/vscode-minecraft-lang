@@ -15,7 +15,8 @@
 
 This is an extension which colorizes the `.lang`
 files that Minecraft uses to store item and entity names,
-as well as menu labels.
+as well as menu labels. Minecraft formatting codes inside
+TypeScript (`.ts`) strings are also colorized.
 
 **Screenshot (Abyss Theme)**
 ![Demo Screenshot](screenshots/demo-abyss.png)
@@ -26,6 +27,13 @@ Install from the vscode web Extensions view.
 Search `adamraichu.minecraft-lang`.
 
 [View this extension](https://marketplace.visualstudio.com/items?itemName=AdamRaichu.minecraft-lang) on the vscode marketplace.
+
+In TypeScript, both literal section signs and Unicode escapes are supported:
+
+```ts
+const literal = "§aGreen §lBold";
+const escaped = "\u00A7cRed";
+```
 
 ### `§` Highlighting
 

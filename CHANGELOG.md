@@ -7,7 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-Currently no planned features.
+Added:
+
+- Colorize Minecraft formatting codes inside strings in TypeScript (`.ts`) files.
+- Recognize both literal `§` codes and `\u00A7` Unicode escapes in TypeScript.
 
 ## [2.2.0] - 2022-11-19
 

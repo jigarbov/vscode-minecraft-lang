@@ -49,6 +49,13 @@
         "language": "lang",
         "scopeName": "source.lang",
         "path": "./syntaxes/lang.tmLanguage.json"
+      },
+      {
+        "scopeName": "minecraft-formatting.injection.ts",
+        "path": "./syntaxes/typescript-minecraft-formatting.tmLanguage.json",
+        "injectTo": [
+          "source.ts"
+        ]
       }
     ],
     "configurationDefaults": {

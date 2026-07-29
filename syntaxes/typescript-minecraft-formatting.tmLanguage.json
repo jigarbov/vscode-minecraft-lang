@@ -1,0 +1,131 @@
+{
+  "name": "Minecraft Formatting in TypeScript Strings",
+  "scopeName": "minecraft-formatting.injection.ts",
+  "injectionSelector": "L:string.quoted.single.ts, L:string.quoted.double.ts, L:string.template.ts",
+  "patterns": [
+    {
+      "include": "#formatting"
+    }
+  ],
+  "repository": {
+    "formatting": {
+      "patterns": [
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)0",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.0.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)1",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.1.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)2",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.2.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)3",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.3.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)4",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.4.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)5",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.5.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)6",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.6.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)7",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.7.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)8",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.8.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)9",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.9.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)a",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.a.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)b",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.b.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)c",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.c.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)d",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.d.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)e",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.e.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)f",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.f.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)g",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.g.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)k",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.k.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)l",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.l.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)m",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.m.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)n",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.n.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)o",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.o.lang"
+        },
+        {
+          "begin": "(?:\\u00A7|\\\\u00[aA]7)r",
+          "end": "(?=(?:\\u00A7|\\\\u00[aA]7)[0-9a-gk-or]|['\"`]|\\$\\{)",
+          "name": "entity.name.function.format.r.lang"
+        }
+      ]
+    }
+  }
+}
